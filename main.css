@@ -10,7 +10,7 @@ max-width: 1920px;
 }
 .bg { 
     background: linear-gradient(to bottom, #a3b2bf, #84abc8);
-    height: 3200px;
+    height: 1850px;
 }
 
 
@@ -143,6 +143,11 @@ button {
     box-shadow: inset 0px -1px 0 1px #e8ebed;
     text-align: center;
     width: 420px;
-
 }
 
+footer {
+    color: #0c2335;
+    background-color: #fefefe;
+    text-align: center;
+    margin-top: 140px;
+}
