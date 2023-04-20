@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans Symbols', sans-serif;
+    font-weight: 100;
+}
+
+body {
+max-width: 1920px;
+}
+.bg { 
+    background: linear-gradient(to bottom, #a3b2bf, #84abc8);
+    height: 3200px;
+}
+
+
+.container {
+    display: flex;                  
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1920px;
+    padding-top: 15px;
+}   
+
+header h1 a {
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 3px -2px 1px #bac5ce;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+    font-family: 'Noto Sans Symbols', sans-serif;
+    font-size: 20px;
+    ;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer
+}
+
+nav li a:hover {
+    color: #265579;
+    transition: 0.3s ease-in;
+}
+
+ul li:not(:first-child):before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 12px;
+    transform: translate(-50%, -50%);
+}
+
+.container nav, .container h1 {
+    padding: 0 30px;
+}
+
+.containerSection {
+    display: flex;
+}
+
+article {
+    max-width: 960px; 
+}
+
+.slogan img {
+    margin: 60px 30px 0 130px;
+}
+
+.cafeGraos img {
+    margin-top: -105px;
+    max-width: 100%;
+}
+
+.blocoB {
+    display: flex;
+
+}
+.blocoB article {
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.quemSomos {
+    display: inline-block;
+    text-align: center;
+    width: 450px;
+    padding-left: 100px;
+}
+.quemSomos h2, .forms h2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}   
+.quemSomos p, input::placeholder, textarea::placeholder {
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.forms {
+    padding-right: 100px;
+}
+input, textarea {
+    display: block;
+    background-color: transparent;
+    border-color: #325d7f;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 15px;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+textarea {
+    resize: none;
+}
+
+.forms input:focus, .forms textarea:focus {
+    border-color: #010f19;
+}
+
+button {
+    padding: 5px 40px;
+    text-align: center;
+    border-radius: 20px;
+    border-width: 0;
+    background-color: #010f19;
+    color: #fff;
+    font-size: 17px;
+    box-shadow: inset 0px -1px 0 1px #e8ebed;
+    text-align: center;
+    width: 420px;
+
+}
+
